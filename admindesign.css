@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+}
+
+.logo {
+    position: absolute;
+    top: 7px;
+    left: 37.5px;
+    font-size: 1.625em; /* Adjusted font size */
+    color: rgb(210, 217, 17);
+    text-shadow: 2px 2px 4px #000;
+    display: flex;
+    justify-content: space-between;
+}
+
+.admin {
+    position: absolute;
+    top: 7px;
+    right: 37.5px;
+    font-size: 0.375em; /* Reduced by about 25% */
+    color: rgb(210, 217, 17);
+    text-shadow: 2px 2px 4px #000;
+    display: flex;
+    justify-content: space-between;
+}
+
+.home {
+    position: absolute;
+    top: 7px;
+    right: 37.5px;
+    font-size: 0.375em; /* Reduced by about 25% */
+    color: rgb(210, 217, 17);
+    text-shadow: 2px 2px 4px #000;
+    display: flex;
+    justify-content: space-between;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+    background: url('3025.jpg') no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.form-box {
+    position: relative;
+    width: 300px; /* Reduced by about 25% */
+    height: 337.5px; /* Reduced by about 25% */
+    background: transparent;
+    border: 1.5px solid rgba(255, 255, 255, 0.5); /* Reduced by about 25% */
+    border-radius: 15px; /* Reduced by about 25% */
+    backdrop-filter: blur(11.25px); /* Reduced by about 25% */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    font-size: 1.5em; /* Reduced by about 25% */
+    color: #fff;
+    text-align: center;
+}
+
+.inputbox {
+    position: relative;
+    margin: 22.5px 0; /* Reduced by about 25% */
+    width: 232.5px; /* Reduced by about 25% */
+    border-bottom: 1.5px solid #fff; /* Reduced by about 25% */
+}
+
+.inputbox label {
+    position: absolute;
+    top: 50%;
+    left: 3.75px; /* Reduced by about 25% */
+    transform: translateY(-50%);
+    color: #fff;
+    font-size: 0.75em; /* Reduced by about 25% */
+    pointer-events: none;
+    transition: 0.375s; /* Reduced by about 25% */
+}
+
+input:focus ~ label,
+input:valid ~ label {
+    top: -3.75px; /* Reduced by about 25% */
+}
+
+.inputbox input {
+    width: 100%;
+    height: 37.5px; /* Reduced by about 25% */
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 0.75em; /* Reduced by about 25% */
+    padding: 0 26.25px 0 3.75px; /* Reduced by about 25% */
+    color: #fff;
+}
+
+.inputbox ion-icon {
+    position: absolute;
+    right: 6px; /* Reduced by about 25% */
+    color: #fff;
+    font-size: 0.9em; /* Reduced by about 25% */
+    top: 15px; /* Reduced by about 25% */
+}
+
+.forget {
+    margin: -11.25px 0 11.25px; /* Reduced by about 25% */
+    font-size: 0.675em; /* Reduced by about 25% */
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+
+.forget label input {
+    margin-right: 2.25px; /* Reduced by about 25% */
+}
+
+.forget label a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.forget label a:hover {
+    text-decoration: underline;
+}
+
+button {
+    width: 100%;
+    height: 30px; /* Reduced by about 25% */
+    border-radius: 30px; /* Reduced by about 25% */
+    background: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 0.75em; /* Reduced by about 25% */
+    font-weight: 600;
+}
+
+.register {
+    font-size: 0.675em; /* Reduced by about 25% */
+    color: #fff;
+    text-align: center;
+    margin: 18.75px 0 7.5px; /* Reduced by about 25% */
+}
+
+.register p a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+}
+
+
+.register p a:hover {
+    text-decoration: underline;
+}
+
+.admin-link {
+    font-size: 0.675em; /* Reduced by about 25% */
+    color: #fff;
+    text-decoration: none;
+}
+
+.home-link {
+    font-size: 0.675em; /* Reduced by about 25% */
+    color: #fff;
+    text-decoration: none;
+}
+
+.admin-link:hover, .home-link:hover {
+    text-decoration: underline;
+}

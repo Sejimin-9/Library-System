@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+}
+
+.logo {
+    position: absolute;
+    top: 7px;
+    left: 37.5px;
+    font-size: 1.625em; /* Adjusted font size */
+    color: rgb(210, 217, 17);
+    text-shadow: 2px 2px 4px #000;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Admin and Home links share the same styles */
+.admin,
+.home {
+    position: absolute;
+    top: 7px;
+    right: 37.5px;
+    font-size: 0.375em; /* Adjusted font size */
+    color: rgb(210, 217, 17);
+    text-shadow: 2px 2px 4px #000;
+    display: flex;
+    justify-content: space-between;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+    background: url('122.jpg') no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.form-box {
+    position: relative;
+    width: 230px;
+    height: 337.5px;
+    background: rgba(0, 0, 0, 0.5); 
+    border: 1.5px solid rgba(253, 252, 252, 0.5);
+    border-radius: 15px;
+    backdrop-filter: blur(11.25px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5%; /* Add padding to increase spacing */
+}
+
+h2 {
+    font-size: 1.125em; /* Adjusted font size */
+    color: #fff;
+    text-align: center;
+}
+
+.inputbox {
+    position: relative;
+    margin: 5% 0; /* Increase margin by 5% */
+    width: 90%; /* Adjusted width */
+    border-bottom: 1px solid #fff;
+    padding: 3% 0; /* Increase padding by 5% */
+}
+
+.inputbox label {
+    position: absolute;
+    top: 50%;
+    left: 3px; /* Adjusted left position */
+    transform: translateY(-50%);
+    color: #fff;
+    font-size: 0.75em;
+    pointer-events: none;
+    transition: 0.375s;
+}
+
+input:focus ~ label,
+input:valid ~ label {
+    top: -2.5px; /* Adjusted top position */
+}
+
+.inputbox input {
+    width: 100%;
+    height: 30px; /* Adjusted height */
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 0.75em;
+    padding: 0 20px 0 3px; /* Adjusted padding */
+    color: #fff;
+}
+
+.inputbox ion-icon {
+    position: absolute;
+    right: 4px; /* Adjusted right position */
+    color: #fff;
+    font-size: 0.75em;
+    top: 12px; /* Adjusted top position */
+}
+
+.forget {
+    margin: 3.5px 0 7.5px; /* Adjusted margin */
+    font-size: 0.5625em; /* Adjusted font size */
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+
+.forget label input {
+    margin-right: 1.5px; /* Adjusted margin */
+}
+
+.forget label a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.forget label a:hover {
+    text-decoration: underline;
+}
+
+button {
+    width: 100%;
+    height: 22.5px; /* Adjusted height */
+    border-radius: 22.5px; /* Adjusted border radius */
+    background: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 0.75em;
+    font-weight: 600;
+}
+
+.register {
+    font-size: 0.5625em; /* Adjusted font size */
+    color: #fff;
+    text-align: center;
+    margin: 11.25px 0 5.625px; /* Adjusted margin */
+}
+
+.register p a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+}
+
+.register p a:hover {
+    text-decoration: underline;
+}
+
+.admin-link {
+    font-size: 0.5625em; /* Adjusted font size */
+    color: #fff;
+    text-decoration: none;
+}
+
+.home-link {
+    font-size: 0.5625em; /* Adjusted font size */
+    color: #fff;
+    text-decoration: none;
+}
+
+.admin-link:hover, .home-link:hover {
+    text-decoration: underline;
+}
